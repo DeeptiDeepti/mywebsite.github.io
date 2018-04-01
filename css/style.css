@@ -648,10 +648,17 @@ p {
 	width:70%;
 	padding: 2px 16px;
 	display:inline-block;
-	font-size: 18px;
+	font-size: 16px;
 	padding-top: 15px;
     padding-bottom: 15px;
 	text-align: justify;
+}
+
+.aboutme-text p{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Cabin', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	line-height:120%;
 }
 
 .aboutme-2para{
@@ -694,6 +701,7 @@ p {
 
 .education-wrapper{
 	display:inline-block;
+	font-family: 'Cabin', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 	float:left;
 	width:70%;
 }
