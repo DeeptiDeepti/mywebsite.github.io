@@ -971,6 +971,49 @@ span.answer {
 }
 
 /**** SKILLS PAGE #3 ****/
+#console-wrapper{
+	border-radius: 5px;
+	width:80%;
+	margin-left: 10%;
+	margin-right:10%;
+	padding-top:15px;
+	padding-bottom: 15px;
+	background: #ccc;
+	font-family: Consolas, monaco, monospace;
+	/*font-family: 'Source Serif Pro';*/
+	text-align: left;
+	font-size:18px;
+	color: #fafafa;
+	display:inline-flex;
+}
+
+#console{
+	width:100%;
+	padding: 30px 30px 30px 50px;
+	height: auto;
+	margin:0 auto;
+	background: #383737;
+	display: inline;
+}
+
+@media (max-width: 720px){
+	#console-wrapper{
+		width:95%;
+		margin-left:2%;
+		margin-right:2%;
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	#console{
+		padding: 10px 30px 10px 30px;
+	}
+}
+
+span.answer {
+  /*color:#ccc;*/
+  color: #FFBC24;
+}
 /**** END SKILLS PAGE #3 ****/
 
 
