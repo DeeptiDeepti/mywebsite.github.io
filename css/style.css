@@ -14,7 +14,8 @@ body{
 
 /**** MAIN PROFILE PAGE STYLE ****/
 .main_page{
-  background: url(../images/mainBackground.jpg) no-repeat center center fixed;
+  background: #000 url(../images/mainBackground.jpg) no-repeat center center fixed;
+  /*background: #6481b5;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,8 +54,8 @@ body{
 }
 
 .main_profile_box h1{
-  font-family: Papyrus, fantasy;
-  font-size: 40px;
+  font-family:'Rum Raisin';
+  font-size: 48px;
   letter-spacing: 0.1em;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -64,14 +65,19 @@ body{
 	padding-top: 25px;
 	margin-bottom: 10px;
 	font-weight: 100;
+	font-size: 24px;
+	font-family:'Salsa';
 }
 
 .main_profile_box h3{
-  font-family:"Lucida Console";
+  font-family:'Salsa';
+  padding-bottom:10px;
+  font-size: 20px;
 }
 
 .main_profile_box p{
   letter-spacing: 1;
+  font-family:'Salsa';
 }
 
 .main_profile_social_icons{
@@ -208,7 +214,6 @@ body{
 		display:none;
 	}
 }
-
 /**** END MAIN PROFILE PAGE STYLE ****/
 
 /**** NAVBAR WRAPPER ****/
